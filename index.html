@@ -3,126 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Echoes of Murder</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: url('images/winter-bg.jpg') no-repeat center center fixed;
-            background-size: cover;
-            color: white;
-            text-align: center;
-        }
-        header {
-            background: rgba(0, 0, 0, 0.7);
-            padding: 20px;
-        }
-        header img {
-            width: 150px;
-        }
-        nav {
-            margin-top: 10px;
-        }
-        nav a {
-            text-decoration: none;
-            color: white;
-            padding: 15px;
-            margin: 5px;
-            background: rgba(255, 255, 255, 0.2);
-            border-radius: 10px;
-            transition: 0.3s;
-        }
-        nav a:hover {
-            background: rgba(255, 255, 255, 0.5);
-        }
-        .banner {
-            width: 100%;
-            max-height: 300px;
-            object-fit: cover;
-        }
-        .container {
-            padding: 50px 20px;
-        }
-        .section {
-            background: rgba(0, 0, 0, 0.8);
-            padding: 40px;
-            margin: 20px auto;
-            max-width: 800px;
-            border-radius: 15px;
-        }
-        .btn {
-            display: inline-block;
-            margin: 10px;
-            padding: 15px 20px;
-            color: white;
-            background: #ff4444;
-            text-decoration: none;
-            border-radius: 10px;
-            transition: 0.3s;
-        }
-        .btn:hover {
-            background: #cc0000;
-        }
-        footer {
-            background: rgba(0, 0, 0, 0.7);
-            padding: 20px;
-            margin-top: 20px;
-        }
-    </style>
+    <title>Fjurdur - Página Oficial</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <!-- Header y Logo -->
+    <!-- Header -->
     <header>
-        <img src="images/logo.png" alt="Murder Tolling Mystery Logo">
-        <nav>
-            <a href="#sobre">Sobre el Juego</a>
-            <a href="#equipo">Equipo</a>
-            <a href="#redes">Redes Sociales</a>
-        </nav>
+        <h1>Fjurdur - Indie Developer</h1>
+        <p>Bienvenido a mi mundo de mods y videojuegos</p>
     </header>
 
-    <!-- Banner Superior -->
-    <img src="images/banner1.jpg" alt="Banner del juego" class="banner">
+    <!-- Sección de Presentación -->
+    <section id="presentacion">
+        <h2>Sobre Mí</h2>
+        <p>Soy Fjurdur, un desarrollador indie con un enfoque en la creatividad, los desafíos y la exploración mágica.</p>
+        <p>Trabajo en mods como *Fjurdur Conexión Doomware* y videojuegos como *Echoes of Murder* y *Danger Zone*.</p>
+    </section>
 
-    <!-- Información sobre el juego -->
-    <div class="container">
-        <div id="sobre" class="section">
-            <h2>¿Qué es Echoes of Murder?</h2>
-            <p>
-                *Murder Tolling Mystery* es un juego de misterio y supervivencia multijugador para hasta 15 jugadores. 
-                Cada partida pone a prueba tus habilidades de deducción, estrategia y engaño. 
-                Mientras los Sheriffs intentan descubrir al asesino, este último debe eliminar a los jugadores sin ser descubierto. 
-                ¡Solo los más astutos sobrevivirán!
-            </p>
+    <!-- Sección de Fjurdur -->
+    <section id="fjurdur">
+        <h2>¿Qué es Fjurdur?</h2>
+        <p>Fjurdur es un universo mágico lleno de misterio y posibilidades. Un mundo donde la magia, la exploración y los secretos se encuentran en cada rincón.</p>
+    </section>
+
+    <!-- Botones para los Juegos -->
+    <section id="juegos">
+        <h2>Mis Videojuegos</h2>
+        <div class="botones">
+            <a href="#echoes" class="btn">Echoes of Murder</a>
+            <a href="#danger" class="btn">Danger Zone</a>
         </div>
+    </section>
 
-        <!-- Banner Secundario -->
-        <img src="images/banner2.jpg" alt="Segundo Banner" class="banner">
+    <!-- Echoes of Murder -->
+    <section id="echoes">
+        <h2>Echoes of Murder</h2>
+        <p>Un juego de misterio y supervivencia donde los jugadores deben descubrir al asesino antes de que sea demasiado tarde.</p>
+        <img src="images/echoes.jpg" alt="Echoes of Murder">
+        <p><a href="https://pok3gianf.itch.io/eom" class="btn" target="_blank">Jugar en Itch.io</a></p>
+    </section>
 
-        <!-- Equipo -->
-        <div id="equipo" class="section">
-            <h2>Conoce al Equipo</h2>
-            <p><strong>Fjurdur / Cocoelgianf</strong> - Programador principal</p>
-            <p><strong>Mj19q / Manuel</strong> - Social Manager</p>
-            <p><strong>Catarsis</strong> - Aportadora de ideas y mejor amiga de Fjurdur</p>
-            <p><strong>Endo_505</strong> - Investigador del juego</p>
-            <p><strong>Dragogianm / Piñagianm</strong> - Hermano pequeño de Fjurdur (nada más xd)</p>
-        </div>
+    <!-- Danger Zone -->
+    <section id="danger">
+        <h2>Danger Zone</h2>
+        <p>Un desafiante plataformas 2D de puzles inspirado en *Hollow Knight* y *Celeste*. Mi reto más difícil hasta ahora.</p>
+        <img src="images/danger.jpg" alt="Danger Zone">
+        <p><a href="https://pok3gianf.itch.io/danger-zone" class="btn" target="_blank">Jugar en Itch.io</a></p>
+    </section>
 
-        <!-- Redes Sociales -->
-        <div id="redes" class="section">
-            <h2>Síguenos en nuestras redes</h2>
-            <a href="https://www.youtube.com/@MurderMysteryGameBy/featured" class="btn" target="_blank">YouTube</a>
-            <a href="https://x.com/mj19q?t=BDSHThjo1ptK-NRy0bzbzw&s=33" class="btn" target="_blank">X (Twitter)</a>
-            <a href="https://www.tiktok.com/@mtmgameby" class="btn" target="_blank">TikTok</a>
-            <a href="https://www.whatsapp.com/channel/0029Vb1RQ6LDZ4Lh542esm0U" class="btn" target="_blank">WhatsApp</a>
-        </div>
-    </div>
-
-    <!-- Footer -->
+    <!-- Redes Sociales -->
     <footer>
-        <p>&copy; 2025 Echoes of Murder - Todos los derechos reservados.</p>
+        <h2>Redes Sociales</h2>
+        <a href="https://www.youtube.com/@indie_developer_Fjurdur" class="btn" target="_blank">YouTube</a>
+        <a href="https://www.reddit.com/user/Resident_Sound_6340/" class="btn" target="_blank">Reddit</a>
+        <p>&copy; 2025 Fjurdur - Todos los derechos reservados.</p>
     </footer>
 
 </body>
