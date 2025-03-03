@@ -1,18 +1,31 @@
-# Echoes of Murder - Página Oficial  
+# 🎭 Fjurdur - Página Oficial del Caos 🎭
 
-Bienvenido al repositorio de la página web oficial de **Echoes of Murder**, un videojuego multijugador de misterio y supervivencia.  
+¡Bienvenido al rincón más caótico y mágico del desarrollo indie! Aquí es donde creo videojuegos, pierdo la cordura y, de vez en cuando, me acuerdo de dormir.  
 
-## 📌 Descripción  
-*Echoes of Murder* es un juego en el que 15 jugadores compiten en un escenario de engaño, estrategia y deducción. Dos jugadores toman el rol de **Sheriffs**, mientras que uno es el **Asesino**.  
-- **Los Sheriffs** deben descubrir quién es el asesino antes de que sea demasiado tarde.  
-- **El Asesino** debe eliminar a los jugadores sin ser detectado.  
-- **Los Inocentes** pueden usar monedas para desbloquear habilidades y sobrevivir.  
+## 🚀 ¿Quién soy?  
+Soy **Fjurdur**, un desarrollador indie que mezcla creatividad, desafíos y un toque de magia en sus juegos. ¿El resultado? Experiencias únicas, extrañas y, en algunos casos, ligeramente perturbadoras.  
 
-## 🌐 Página Web  
-La página web está diseñada para proporcionar información sobre el juego, su desarrollo y el equipo detrás de él. Tiene un diseño invernal con navegación intuitiva y enlaces a nuestras redes sociales.  
+🎮 **Mis juegos:**  
+- 🧐 **Echoes of Murder** → Misterios, paranoia y un ligero toque de locura.  
+- ⚡ **Danger Zone** → Plataformas que desafiarán tu paciencia (y posiblemente tu salud mental).  
 
-### 🚀 Características  
-✅ Diseño **vertical** con navegación fluida.  
-✅ **Banners** que destacan la temática del juego.  
-✅ **Sección de equipo** con los integrantes del proyecto.  
-✅ **Redes sociales** con enlaces a YouTube, X, TikTok y WhatsApp.  
+## ❓ ¿Qué es Fjurdur?  
+Una palabra inventada que nació de la falta de atención paternal, los deberes interminables y una imaginación desbordante. **Sí, ese soy yo.** 😎  
+
+## 📢 Redes Sociales  
+Si quieres seguir este viaje de locura y desarrollo:  
+
+- **YouTube:** [@indie_developer_Fjurdur](https://www.youtube.com/@indie_developer_Fjurdur)  
+- **Reddit:** [u/Resident_Sound_6340](https://www.reddit.com/user/Resident_Sound_6340/)  
+
+## ⚠️ Advertencia  
+No me hago responsable por:  
+✅ Horas de juego perdidas.  
+✅ Gritos de frustración.  
+✅ Una repentina adicción a resolver misterios.  
+✅ Ganas de tirar el teclado jugando *Danger Zone*.  
+
+---
+
+### © 2025 Fjurdur - Todos los derechos reservados  
+(Si los encuentro, porque seguro los dejé en algún archivo de código olvidado).  
