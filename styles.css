@@ -1,0 +1,101 @@
+/* Estilo General */
+body {
+    margin: 0;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: linear-gradient(45deg, #ff0000, #000000, #6600ff);
+    background-size: 300% 300%;
+    animation: crazyBackground 10s infinite alternate;
+    color: white;
+    text-align: center;
+}
+
+/* Animación de Fondo */
+@keyframes crazyBackground {
+    0% { background-position: left top; }
+    100% { background-position: right bottom; }
+}
+
+/* Encabezado */
+header {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    box-shadow: 0px 0px 20px rgba(255, 0, 0, 0.8);
+    transform: skew(-3deg);
+}
+
+header h1 {
+    font-size: 40px;
+    text-shadow: 3px 3px 10px #ff0000;
+}
+
+header p {
+    font-size: 18px;
+    font-style: italic;
+}
+
+/* Secciones */
+section {
+    background: rgba(0, 0, 0, 0.8);
+    margin: 30px auto;
+    padding: 30px;
+    max-width: 800px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.5);
+    transform: rotate(-1deg);
+}
+
+/* Botones */
+.btn {
+    display: inline-block;
+    margin: 15px;
+    padding: 15px 30px;
+    color: white;
+    background: #ff00ff;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: transform 0.2s, background 0.3s;
+}
+
+.btn:hover {
+    background: #ffcc00;
+    transform: scale(1.2) rotate(10deg);
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8);
+}
+
+/* Imágenes */
+img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+    transform: rotate(1deg);
+}
+
+/* Pie de Página */
+footer {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 15px rgba(255, 0, 0, 0.7);
+    transform: skew(3deg);
+}
+
+footer h2 {
+    font-size: 25px;
+    text-shadow: 2px 2px 10px #ff00ff;
+}
+
+/* Efectos locos */
+@keyframes shake {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(3deg); }
+    50% { transform: rotate(-3deg); }
+    75% { transform: rotate(3deg); }
+    100% { transform: rotate(0deg); }
+}
+
+section:hover {
+    animation: shake 0.3s infinite;
+}
